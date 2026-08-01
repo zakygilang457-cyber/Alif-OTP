@@ -143,7 +143,7 @@ class MatrixBackground:
 def matrix_loading(duration=3):
     matrix = MatrixBackground()
 
-    ascii_alif = [
+    ascii_Alif = [
    "  █████╗ ██╗     ██╗███████╗",
  "██╔══██╗██║     ██║██╔════╝",
 "███████║██║     ██║█████╗",  
