@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# main.py Alif-OTP OTP Spammer
+# main.py Alif -OTP OTP Spammer
 
 import sys
 import time
