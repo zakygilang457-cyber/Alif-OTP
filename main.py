@@ -24,7 +24,7 @@ TOOLS_NAME = "Alif -OTP"
 exec_data = {
     'target': '',
     'threads': 5,
-    'total_api': 24,
+    'total_api': 100,
     'status': 'Initializing...',
     'progress': 0,
     'sent': 0,
@@ -144,12 +144,12 @@ def matrix_loading(duration=3):
     matrix = MatrixBackground()
 
     ascii_Alif = [
-   "  █████╗ ██╗     ██╗███████╗",
- "██╔══██╗██║     ██║██╔════╝",
+ "█████╗ ██╗     ██╗███████╗",
+"██╔══██╗██║     ██║██╔════╝",
 "███████║██║     ██║█████╗",  
 "██╔══██║██║     ██║██╔══╝",  
 "██║  ██║███████╗██║██║",     
-"╚═╝  ╚═╝╚══════╝╚═╝╚═╝",     
+"╚═╝  ╚═╝╚══════╝╚═╝╚═╝,     
                                                                          ]
     
     start_time = time.time()
@@ -206,7 +206,7 @@ def print_banner(tick=0):
     color = rgb_color(tick)
     reset = Style.RESET_ALL
     
-    title = gradient_text("GILZZ -OTP", tick, 0)
+    title = gradient_text("Alif Bokep", tick, 0)
     
     banner = f"""
   ┌──────────────────────────────────────────────────────┐
@@ -214,7 +214,7 @@ def print_banner(tick=0):
   └──────────────────────────────────────────────────────┘
 
   ┌──────────────────────────────────────────────────────┐
-  │  {color}API{reset}  : 24  │  {color}Version{reset}  : 1.0.0  │  {color}Dev{reset}  : Gilzz     │
+  │  {color}API{reset}  : 100  │  {color}Version{reset}  : 1.0.0  │  {color}Dev{reset}  : Gilzz     │
   └──────────────────────────────────────────────────────┘{reset}
 """
     print(banner)
